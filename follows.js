@@ -8,7 +8,7 @@
 		applicationName	= 'My Company\'s Application', // Replaces Xively logo in the header
 		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
-		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
+		dataColor		= '08', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0;
 	*/
 
@@ -17,7 +17,7 @@
 		applicationName	= 'DK Electricity', // Replaces Xively logo in the header
 		dataDuration	= '1hour', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
-		dataColor		= '0a1922', // CSS HEX value of color to represent data (omit leading #)
+		dataColor		= '0c5da5', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
