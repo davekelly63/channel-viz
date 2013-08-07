@@ -15,7 +15,7 @@
 	var defaultKey		= 'L2zduHpVypT7okOizCMJbPL5L6R12KGaU7VzzISuhguEcX37', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [41189], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'DK Electricity', // Replaces Xively logo in the header
-		dataDuration	= '1hour', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataDuration	= '3hours', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
 		dataColor		= 'FF7A00', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
@@ -83,7 +83,7 @@
 					var updated = new Date;
 					updated = updated.parseISO(datastream.at);
 					var diff = null;
-                                        if(duration == '1hour') diff = 3600000;
+                                        if(duration == '3hours') diff = 10800000;
 					if(duration == '6hours') diff = 21600000;
 					 if(duration == '1day') diff = 86400000;
 					 if(duration == '1week') diff = 604800000;
