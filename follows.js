@@ -13,7 +13,7 @@
 	*/
 
 	var defaultKey		= 'L2zduHpVypT7okOizCMJbPL5L6R12KGaU7VzzISuhguEcX37', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [41189:0001], // Comma separated array of Xively Feed ID numbers
+		defaultFeeds	= [41189], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'DK Electricity', // Replaces Xively logo in the header
 		dataDuration	= '3hours', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
